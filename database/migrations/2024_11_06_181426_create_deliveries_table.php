@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string(50)->contenido;
             $table->int()->cantidad;
             $table->string(50)->estado;
-            $table->string(50)->direccion;
+            $table->string(50)->direccionn;
             $table->string(50)->fecha_entrega_estimada;
             $table->string(50)->direccion_facturacion;
             $table->id()->user_id;
