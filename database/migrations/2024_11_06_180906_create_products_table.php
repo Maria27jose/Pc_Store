@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string(50)->descripcion;
             $table->int()->precio;
             $table->string(50)->disponibilidad;
-            $table->string(50)->ficha_tecnica;
+            $table->string(50)->ficha_tecnicaa;
             $table->date()->fecha_lanzamiento;
             $table->id()->category_id;
             $table->timestamps();
